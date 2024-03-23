@@ -12,10 +12,10 @@ var argv = require('minimist')(process.argv.slice(2));
 var proxy_array = []
 var usernames = []
 
-const host = getCommandArgument("host", "127.0.0.1")
+const host = getCommandArgument("host", "minecraftignoto.aternos.me")
 const port = getCommandArgument("port", "25565")
-const username = getCommandArgument("username", "true")
-const version_server = getCommandArgument("version", "1.8.8")
+const username = getCommandArgument("bot", "true")
+const version_server = getCommandArgument("version", "1.20.1")
 const speedt = getCommandArgument("speed", "120")
 
 /**
